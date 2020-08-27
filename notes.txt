@@ -1,0 +1,2 @@
+heroku create macro-recipe-weight-server
+heroku addons:create heroku-postgresql:hobby-dev --app macro-recipe-weight-server
