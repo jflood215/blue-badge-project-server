@@ -9,11 +9,8 @@ module.exports = function (sequelize, DataTypes) {
       },
     },
     password: {
-      type: DataTypes.STRING(50),
+      type: DataTypes.STRING,
       allowNull: false,
-      validate: {
-        len: [5, 70],
-      },
     },
   });
   return User;
